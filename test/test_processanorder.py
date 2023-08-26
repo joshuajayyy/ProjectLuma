@@ -53,3 +53,5 @@ class TestProcessAnOrder(BaseClass):
         # Click on header checkout button
         self.explicitWait(headerLink.wait2)
         headerLink.proceedToCheckOut().click()
+
+        # More code here
