@@ -1,0 +1,10 @@
+2023-08-26 07:46:50,447 : INFO : test_processAnOrder : Product name is correct
+2023-08-26 07:46:51,008 : INFO : test_processAnOrder : Customer Edogawa, Conan ordered 2 item/s of Gobi HeatTec® Tee with an SKU of MS04
+2023-08-26 07:49:47,768 : INFO : test_processAnOrder : Product name is correct
+2023-08-26 07:49:48,327 : INFO : test_processAnOrder : Customer Edogawa, Conan ordered 2 item/s of M Gobi HeatTec® Tee with an SKU of MS04
+2023-08-26 07:50:25,755 : INFO : test_processAnOrder : Product name is correct
+2023-08-26 07:50:26,569 : INFO : test_processAnOrder : Customer Edogawa, Conan ordered 2 item/s of M size Gobi HeatTec® Tee with an SKU of MS04
+2023-08-26 09:47:46,920 : INFO : test_createAnAccount : User with an email address Cristina@gmail.com, Successfully created an account.
+2023-08-26 09:47:54,710 : INFO : test_login : User Conan Edogawa entered an email: Cristina@gmail.com
+2023-08-26 09:48:57,691 : INFO : test_createAnAccount : User with an email address Annie@gmail.com, Successfully created an account.
+2023-08-26 09:49:05,576 : INFO : test_login : User Conan Edogawa entered an email: Annie@gmail.com

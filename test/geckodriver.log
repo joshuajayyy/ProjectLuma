@@ -1,0 +1,143 @@
+1692822880034	geckodriver	INFO	Listening on 127.0.0.1:49622
+1692822883095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--remote-debugging-por ... mote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SLMP - Joshua\\AppData\\Local\\Temp\\rust_mozprofileuIj2Oh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692822883749	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1692822883884	Marionette	INFO	Listening on port 49635
+Read port: 49635
+WebDriver BiDi listening on ws://127.0.0.1:49623
+1692822884015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49623/devtools/browser/2a164416-0d68-4eaa-a7f0-2efc9cc3e1bd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/simple-checked
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/bind-html
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/class
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/storage/local
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/view/utils/async
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/registry/registry
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/tooltip
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/color-picker
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/logger
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/entry-factory
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/console-output-handler
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/formatter
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/slider
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/message-pool
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/levels-pool
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: moment
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/calendar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/logger/logger-utils
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/utils/main
+http://requirejs.org/docs/errors.html#scripterror
+1692822911364	Marionette	INFO	Stopped listening on port 49635
+JavaScript warning: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 3: Script terminated by timeout at:
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:47
+enable@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:72:315
+init@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:54:144
+newContext/makeRequire/localRequire/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:99:156
+
+Dynamically enable window occlusion 1
+[Parent 23616, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 20588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23616, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 20588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23616, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 20588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23616, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 20588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23616, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 20588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692829562394	geckodriver	INFO	Listening on 127.0.0.1:65420
+1692829565441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--remote-debugging-por ... mote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SLMP - Joshua\\AppData\\Local\\Temp\\rust_mozprofileU7jztZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692829566323	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1692829566525	Marionette	INFO	Listening on port 65435
+WebDriver BiDi listening on ws://127.0.0.1:65421
+Read port: 65435
+1692829566726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65421/devtools/browser/ba927432-9479-4772-8608-3564544753bd
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/view/messages
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/element/links
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: MSP_ReCaptcha/js/ui-messages-mixin
+http://requirejs.org/docs/errors.html#scripterror
+[Parent 19888, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 25392, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/url
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: mage/storage
+http://requirejs.org/docs/errors.html#scripterror
+1692829581197	Marionette	INFO	Stopped listening on port 65435
+JavaScript warning: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 50: Script terminated by timeout at:
+newContext/checkLoaded/checkLoadedTimeoutId<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:50:144
+
+Dynamically enable window occlusion 1
+[Parent 19888, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 25392, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 19888, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 25392, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 19888, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 25392, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 19888, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 25392, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 19888, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 25392, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692829584436	geckodriver	INFO	Listening on 127.0.0.1:65471
+1692829587480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--remote-debugging-por ... mote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SLMP - Joshua\\AppData\\Local\\Temp\\rust_mozprofileGKEDEh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692829588199	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1692829588417	Marionette	INFO	Listening on port 65479
+WebDriver BiDi listening on ws://127.0.0.1:65472
+Read port: 65479
+1692829588646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65472/devtools/browser/700581a5-03f9-4080-b6ad-fff97169ac96
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+[Parent 23796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692829600315	Marionette	INFO	Stopped listening on port 65479
+Dynamically enable window occlusion 1
+[Parent 23796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 23796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
