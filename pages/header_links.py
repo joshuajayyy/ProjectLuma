@@ -5,6 +5,7 @@ from utilities.base_class import BaseClass
 
 class HeaderLinks(BaseClass):
 
+    login_button = (By.LINK_TEXT, "Sign In")
     whats_new = (By.LINK_TEXT, "What's New")
     cart_icon = (By.CSS_SELECTOR, ".showcart")
     proceed_to_checkout = (By.CSS_SELECTOR, ".checkout")
@@ -16,6 +17,9 @@ class HeaderLinks(BaseClass):
 
     def clickWhatsNew(self):
         return self.driver.find_element(*HeaderLinks.whats_new)
+
+    def clickLoginButton(self):
+        return self.driver.find_element(*HeaderLinks.login_button)
 
     def cartIcon(self):
         return self.driver.find_element(*HeaderLinks.cart_icon)
