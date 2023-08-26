@@ -8,3 +8,7 @@
 2023-08-26 09:47:54,710 : INFO : test_login : User Conan Edogawa entered an email: Cristina@gmail.com
 2023-08-26 09:48:57,691 : INFO : test_createAnAccount : User with an email address Annie@gmail.com, Successfully created an account.
 2023-08-26 09:49:05,576 : INFO : test_login : User Conan Edogawa entered an email: Annie@gmail.com
+2023-08-27 04:59:11,020 : INFO : test_createAnAccount : User with an email address Harold@gmail.com, Successfully created an account.
+2023-08-27 05:02:14,928 : INFO : test_login : User Conan Edogawa entered an email: Harold@gmail.com
+2023-08-27 05:05:56,355 : INFO : test_createAnAccount : User with an email address Freida@gmail.com, Successfully created an account.
+2023-08-27 05:06:12,411 : INFO : test_login : User Conan Edogawa entered an email: Freida@gmail.com

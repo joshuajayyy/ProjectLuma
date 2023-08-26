@@ -5,7 +5,6 @@ from utilities.base_class import BaseClass
 
 class CreateAccountPage(BaseClass):
 
-    click_create_account = (By.LINK_TEXT, "Create an Account")
     first_name = (By.ID, "firstname")
     last_name = (By.ID, "lastname")
     email = (By.ID, "email_address")
@@ -16,9 +15,6 @@ class CreateAccountPage(BaseClass):
 
     def __init__(self, driver):
         self.driver = driver
-
-    def clickCreatebutton(self):
-        return self.driver.find_element(*CreateAccountPage.click_create_account)
 
     def setFirstName(self):
         return self.driver.find_element(*CreateAccountPage.first_name)
