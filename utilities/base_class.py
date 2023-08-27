@@ -27,8 +27,5 @@ class BaseClass:
         logger.setLevel(logging.DEBUG)
         return logger
 
-    @pytest.mark.usefixtures("getProductInfo")
-    def totalAmount(self, getProductInfo):
-        product_page = ProductPage(self.driver)
-        total = product_page.getPrice() * getProductInfo["quantity"]
-        return total
+    def convertPrice(self, convert):
+        return float(convert.replace('$', ''))

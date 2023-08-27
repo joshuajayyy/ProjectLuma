@@ -35,8 +35,8 @@ def invokeBrowser(request):
     driver.implicitly_wait(5)
     request.cls.driver = driver
 
-    yield
-    driver.close()
+    #yield
+    #driver.close()
 
 
 @pytest.fixture(params=InputData.create_account_data, scope="function")

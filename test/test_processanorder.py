@@ -58,6 +58,7 @@ class TestProcessAnOrder(BaseClass):
         check_out_page.setState(getAddress["state"])
         check_out_page.setPostalCode().send_keys(getAddress["postalCode"])
         check_out_page.setPhoneNumber().send_keys(InputData().getUserPhoneNumber())
+        check_out_page.setShippingMethod()
 
         """
         log.info("Customer {}, {} ordered {} item/s of {} size {} with an SKU of {}".format(
