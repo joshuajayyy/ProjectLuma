@@ -12,3 +12,12 @@
 2023-08-27 05:02:14,928 : INFO : test_login : User Conan Edogawa entered an email: Harold@gmail.com
 2023-08-27 05:05:56,355 : INFO : test_createAnAccount : User with an email address Freida@gmail.com, Successfully created an account.
 2023-08-27 05:06:12,411 : INFO : test_login : User Conan Edogawa entered an email: Freida@gmail.com
+2023-08-28 00:04:03,089 : INFO : test_login : User Conan Edogawa entered an email: Freida@gmail.com
+2023-08-28 03:21:20,087 : INFO : test_createAnAccount : User with an email address Omar@gmail.com, Successfully created an account.
+2023-08-28 03:24:23,109 : INFO : test_createAnAccount : User with an email address Florence@gmail.com, Successfully created an account.
+2023-08-28 03:25:43,832 : INFO : test_createAnAccount : User with an email address Travis@gmail.com, Successfully created an account.
+2023-08-28 03:26:23,405 : INFO : test_login : User Ilanila Kar entered an email: Mi
+2023-08-28 03:32:11,214 : INFO : test_login : User Gautama Brahmbhatt entered an email: Travis@gmail.com
+2023-08-28 03:38:31,085 : INFO : test_login : User Diti Subramanian entered an email: Travis@gmail.com
+2023-08-28 03:46:04,832 : INFO : test_login : User Jaywant Banik entered an email: Travis@gmail.com
+2023-08-28 03:46:56,919 : INFO : test_createAnAccount : User with an email address Maria@gmail.com, Successfully created an account.

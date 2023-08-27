@@ -35,8 +35,8 @@ def invokeBrowser(request):
     driver.implicitly_wait(5)
     request.cls.driver = driver
 
-    yield
-    driver.close()
+    #yield
+    #driver.close()
 
 
 @pytest.fixture(params=InputData.create_account_data, scope="function")
@@ -46,6 +46,16 @@ def getData(request):
 
 @pytest.fixture(params=InputData.selected_product, scope="function")
 def getProductInfo(request):
+    return request.param
+
+
+@pytest.fixture(params=InputData.random_name_address, scope="function")
+def getAddress(request):
+    return request.param
+
+
+@pytest.fixture(params=InputData.states, scope="function")
+def getStates(request):
     return request.param
 
 
