@@ -23,3 +23,5 @@
 2023-08-28 03:46:56,919 : INFO : test_createAnAccount : User with an email address Maria@gmail.com, Successfully created an account.
 2023-08-28 03:57:02,035 : INFO : test_createAnAccount : User with an email address Cleopatra@gmail.com, Successfully created an account.
 2023-08-28 03:57:09,543 : INFO : test_login : User Laxmi Om entered an email: Cleopatra@gmail.com
+2023-08-28 07:41:18,514 : INFO : test_login : User Kanda-Koumarane Bandi entered an email: Cleopatra@gmail.com
+2023-08-28 07:41:48,011 : INFO : test_createAnAccount : User with an email address Alexander@gmail.com, Successfully created an account.
