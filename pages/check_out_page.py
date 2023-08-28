@@ -13,8 +13,10 @@ class CheckOutPage(BaseClass):
     region = (By.CSS_SELECTOR, "select[name='region_id'] option[data-title]")
     postal_code = (By.CSS_SELECTOR, "input[name='postcode']")
     phone_number = (By.CSS_SELECTOR, "input[name='telephone']")
-    radio_button = (By.CSS_SELECTOR, "input[value='flatrate_flatrate']")
     table = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row")
+    table_col_3 = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(3)")
+    table_col_2 = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(2)")
+    table_col_1 = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(1)")
 
     def __init__(self, driver, getStates):
         self.driver = driver
@@ -50,10 +52,10 @@ class CheckOutPage(BaseClass):
     def setShippingMethod(self):
         methods = self.driver.find_elements(*CheckOutPage.table)
         for method in methods:
-            a = method.find_element(By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(3)").text
+            a = method.find_element(*CheckOutPage.table_col_3).text
             if a == "Fixed":
-                self.shipping_method_price = method.find_element(By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(2)").text
-                method.find_element(By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(1)").click()
+                self.shipping_method_price = method.find_element(*CheckOutPage.table_col_2).text
+                method.find_element(*CheckOutPage.table_col_2).click()
                 break
 
         self.shipping_method_price = self.convertPrice(self.shipping_method_price)
