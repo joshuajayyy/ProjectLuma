@@ -36,7 +36,6 @@ class TestProcessAnOrder(BaseClass):
         whats_new.productSearch(getProductInfo["product_name"])
 
         # Set all necessary information from product page
-
         product_page.setSize(getProductInfo["size"])
         product_page.setColor().click()
         product_page.setQuantity().send_keys(getProductInfo["quantity"])

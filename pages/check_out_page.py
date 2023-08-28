@@ -5,6 +5,7 @@ from utilities.base_class import BaseClass
 
 class CheckOutPage(BaseClass):
 
+    shipping_method_price = None
     company_name = (By.CSS_SELECTOR, "input[name='company']")
     address_line_1 = (By.CSS_SELECTOR, "input[name='street[0]']")
     city = (By.CSS_SELECTOR, "input[name='city']")
@@ -14,7 +15,6 @@ class CheckOutPage(BaseClass):
     phone_number = (By.CSS_SELECTOR, "input[name='telephone']")
     radio_button = (By.CSS_SELECTOR, "input[value='flatrate_flatrate']")
     table = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row")
-    shipping_method_price = None
 
     def __init__(self, driver, getStates):
         self.driver = driver
