@@ -17,6 +17,7 @@ class CheckOutPage(BaseClass):
     table_col_3 = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(3)")
     table_col_2 = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(2)")
     table_col_1 = (By.CSS_SELECTOR, ".table-checkout-shipping-method tbody .row td:nth-child(1)")
+    _next = (By.CSS_SELECTOR, "#shipping-method-buttons-container .button")
 
     def __init__(self, driver, getStates):
         self.driver = driver
@@ -59,3 +60,7 @@ class CheckOutPage(BaseClass):
                 break
 
         self.shipping_method_price = self.convertPrice(self.shipping_method_price)
+
+    def clickNext(self):
+        return self.driver.find_element(*CheckOutPage._next)
+

@@ -6,9 +6,9 @@ userLogFilePath = "C:/Users/SLMP - Joshua/PycharmProjects/ProjectLuma/testData/u
 random_name = names.get_first_name()
 f_name = ri.get_first_name()
 l_name = ri.get_last_name()
-#email = ri.get_email()
 p_word = ri.random_password()
 phone_number = ri.get_phone_number()
+
 
 class InputData:
 

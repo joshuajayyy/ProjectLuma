@@ -5,8 +5,6 @@ import pytest
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from pages.product_page import ProductPage
-
 
 @pytest.mark.usefixtures("invokeBrowser")
 class BaseClass:
@@ -28,4 +26,12 @@ class BaseClass:
         return logger
 
     def convertPrice(self, convert):
-        return float(convert.replace('$', ''))
+        return float(convert.replace('$', '').replace(',', '').replace('-', ''))
+
+    """
+    @pytest.mark.usefixtures("getProductInfo")
+    def totalAmount(self, getProductInfo):
+        p_page = ProductPage(self.driver)
+        total_amount = p_page.getPrice() * getProductInfo["quantity"]
+        return total_amount
+    """

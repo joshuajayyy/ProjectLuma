@@ -1,27 +1,2 @@
-2023-08-26 07:46:50,447 : INFO : test_processAnOrder : Product name is correct
-2023-08-26 07:46:51,008 : INFO : test_processAnOrder : Customer Edogawa, Conan ordered 2 item/s of Gobi HeatTec® Tee with an SKU of MS04
-2023-08-26 07:49:47,768 : INFO : test_processAnOrder : Product name is correct
-2023-08-26 07:49:48,327 : INFO : test_processAnOrder : Customer Edogawa, Conan ordered 2 item/s of M Gobi HeatTec® Tee with an SKU of MS04
-2023-08-26 07:50:25,755 : INFO : test_processAnOrder : Product name is correct
-2023-08-26 07:50:26,569 : INFO : test_processAnOrder : Customer Edogawa, Conan ordered 2 item/s of M size Gobi HeatTec® Tee with an SKU of MS04
-2023-08-26 09:47:46,920 : INFO : test_createAnAccount : User with an email address Cristina@gmail.com, Successfully created an account.
-2023-08-26 09:47:54,710 : INFO : test_login : User Conan Edogawa entered an email: Cristina@gmail.com
-2023-08-26 09:48:57,691 : INFO : test_createAnAccount : User with an email address Annie@gmail.com, Successfully created an account.
-2023-08-26 09:49:05,576 : INFO : test_login : User Conan Edogawa entered an email: Annie@gmail.com
-2023-08-27 04:59:11,020 : INFO : test_createAnAccount : User with an email address Harold@gmail.com, Successfully created an account.
-2023-08-27 05:02:14,928 : INFO : test_login : User Conan Edogawa entered an email: Harold@gmail.com
-2023-08-27 05:05:56,355 : INFO : test_createAnAccount : User with an email address Freida@gmail.com, Successfully created an account.
-2023-08-27 05:06:12,411 : INFO : test_login : User Conan Edogawa entered an email: Freida@gmail.com
-2023-08-28 00:04:03,089 : INFO : test_login : User Conan Edogawa entered an email: Freida@gmail.com
-2023-08-28 03:21:20,087 : INFO : test_createAnAccount : User with an email address Omar@gmail.com, Successfully created an account.
-2023-08-28 03:24:23,109 : INFO : test_createAnAccount : User with an email address Florence@gmail.com, Successfully created an account.
-2023-08-28 03:25:43,832 : INFO : test_createAnAccount : User with an email address Travis@gmail.com, Successfully created an account.
-2023-08-28 03:26:23,405 : INFO : test_login : User Ilanila Kar entered an email: Mi
-2023-08-28 03:32:11,214 : INFO : test_login : User Gautama Brahmbhatt entered an email: Travis@gmail.com
-2023-08-28 03:38:31,085 : INFO : test_login : User Diti Subramanian entered an email: Travis@gmail.com
-2023-08-28 03:46:04,832 : INFO : test_login : User Jaywant Banik entered an email: Travis@gmail.com
-2023-08-28 03:46:56,919 : INFO : test_createAnAccount : User with an email address Maria@gmail.com, Successfully created an account.
-2023-08-28 03:57:02,035 : INFO : test_createAnAccount : User with an email address Cleopatra@gmail.com, Successfully created an account.
-2023-08-28 03:57:09,543 : INFO : test_login : User Laxmi Om entered an email: Cleopatra@gmail.com
-2023-08-28 07:41:18,514 : INFO : test_login : User Kanda-Koumarane Bandi entered an email: Cleopatra@gmail.com
-2023-08-28 07:41:48,011 : INFO : test_createAnAccount : User with an email address Alexander@gmail.com, Successfully created an account.
+2023-08-30 09:11:49,996 : ERROR : test_processAnOrder : Pricing assertion error
+2023-08-30 09:13:49,816 : ERROR : test_processAnOrder : Pricing is correct

@@ -3,6 +3,7 @@ import pytest
 from pages.check_out_page import CheckOutPage
 from pages.header_links import HeaderLinks
 from pages.login_page import LoginPage
+from pages.place_order_page import PlaceOrderPage
 from pages.product_page import ProductPage
 from pages.whatsnew_page import WhatsNewPage
 from testData.input_data import InputData
@@ -19,6 +20,7 @@ class TestProcessAnOrder(BaseClass):
         whats_new = WhatsNewPage(self.driver)
         product_page = ProductPage(self.driver)
         check_out_page = CheckOutPage(self.driver, getStates)
+        place_order_page = PlaceOrderPage(self.driver)
 
         # User Sign In
         header_link.clickLoginButton().click()
@@ -36,6 +38,7 @@ class TestProcessAnOrder(BaseClass):
         whats_new.productSearch(getProductInfo["product_name"])
 
         # Set all necessary information from product page
+        product_price = product_page.getPrice()
         product_page.setSize(getProductInfo["size"])
         product_page.setColor().click()
         product_page.setQuantity().send_keys(getProductInfo["quantity"])
@@ -58,6 +61,18 @@ class TestProcessAnOrder(BaseClass):
         check_out_page.setPostalCode().send_keys(getAddress["postalCode"])
         check_out_page.setPhoneNumber().send_keys(InputData().getUserPhoneNumber())
         check_out_page.setShippingMethod()
+        check_out_page.clickNext().click()
+
+        # Place order page
+        try:
+            assert place_order_page.getSubTotalPrice() == product_price * getProductInfo["quantity"]
+            log.error("Pricing is correct")
+
+        except:
+            log.error("Pricing assertion error")
+
+        finally:
+            pass
 
         """
         log.info("Customer {}, {} ordered {} item/s of {} size {} with an SKU of {}".format(

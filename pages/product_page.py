@@ -1,11 +1,13 @@
 from selenium.webdriver.common.by import By
 
+from utilities.base_class import BaseClass
 
-class ProductPage:
+
+class ProductPage(BaseClass):
 
     product_name = (By.CSS_SELECTOR, ".base")
     sku = (By.CSS_SELECTOR, "div[itemprop='sku']")
-    price = (By.CSS_SELECTOR, ".product-info-price .normal-price span[data-price-type='finalPrice']")
+    price = (By.CSS_SELECTOR, ".product-info-price .normal-price span[data-price-type='finalPrice'] .price")
     product_sizes = (By.CSS_SELECTOR, ".swatch-opt .size .clearfix .text")
     product_color = (By.CSS_SELECTOR, ".swatch-opt .color .color:nth-child(2)")
     qty = (By.ID, "qty")
@@ -21,7 +23,8 @@ class ProductPage:
         return self.driver.find_element(*ProductPage.sku).text
 
     def getPrice(self):
-        return int(self.driver.find_element(*ProductPage.price).get_attribute("data-price-amount"))
+        product_price = self.driver.find_element(*ProductPage.price).text
+        return self.convertPrice(product_price)
 
     def setSize(self, product_size):
         sizes = self.driver.find_elements(*ProductPage.product_sizes)
