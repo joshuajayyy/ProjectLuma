@@ -12,6 +12,8 @@ class HeaderLinks(BaseClass):
     proceed_to_checkout = (By.CSS_SELECTOR, ".checkout")
     wait = (By.CSS_SELECTOR, "div[role='alert']")
     wait2 = (By.CSS_SELECTOR, ".subtotal")
+    switch = (By.CSS_SELECTOR, ".header .switch")
+    sign_out = (By.LINK_TEXT, "Sign Out")
 
     def __init__(self, driver):
         self.driver = driver
@@ -30,3 +32,9 @@ class HeaderLinks(BaseClass):
 
     def proceedToCheckOut(self):
         return self.driver.find_element(*HeaderLinks.proceed_to_checkout)
+
+    def headerSwitch(self):
+        return self.driver.find_element(*HeaderLinks.switch)
+
+    def clickSignOut(self):
+        return self.driver.find_element(*HeaderLinks.sign_out)

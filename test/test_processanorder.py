@@ -1,3 +1,5 @@
+import time
+
 import pytest
 
 from pages.check_out_page import CheckOutPage
@@ -5,6 +7,7 @@ from pages.header_links import HeaderLinks
 from pages.login_page import LoginPage
 from pages.place_order_page import PlaceOrderPage
 from pages.product_page import ProductPage
+from pages.success_page import SuccessPage
 from pages.whatsnew_page import WhatsNewPage
 from testData.input_data import InputData
 from utilities.base_class import BaseClass
@@ -21,6 +24,7 @@ class TestProcessAnOrder(BaseClass):
         product_page = ProductPage(self.driver)
         check_out_page = CheckOutPage(self.driver, getStates)
         place_order_page = PlaceOrderPage(self.driver)
+        success_page = SuccessPage(self.driver)
 
         # User Sign In
         header_link.clickLoginButton().click()
@@ -38,10 +42,11 @@ class TestProcessAnOrder(BaseClass):
         whats_new.productSearch(getProductInfo["product_name"])
 
         # Set all necessary information from product page
-        product_price = product_page.getPrice()
         product_page.setSize(getProductInfo["size"])
         product_page.setColor().click()
         product_page.setQuantity().send_keys(getProductInfo["quantity"])
+        product_price = product_page.getPrice()
+        product_sku = product_page.getSKU()
         product_page.clickAddToCart().click()
 
         # Click on header cart icon
@@ -66,16 +71,25 @@ class TestProcessAnOrder(BaseClass):
         # Place order page
         try:
             assert place_order_page.getSubTotalPrice() == product_price * getProductInfo["quantity"]
-            log.error("Pricing is correct")
+            assert place_order_page.getShippingPrice() == check_out_page.shipping_method_price
+            assert place_order_page.getTotalOrderPrice() == place_order_page.computation()
+            log.info("Pricing is correct")
 
         except:
             log.error("Pricing assertion error")
 
         finally:
-            pass
+            #self.explicitWait(place_order_page.wait)
+            time.sleep(2)
+            place_order_page.clickPlaceOrder().click()
 
-        """
-        log.info("Customer {}, {} ordered {} item/s of {} size {} with an SKU of {}".format(
+        time.sleep(5)
+        assert "Thank you for your purchase!" == success_page.getMessage()
+
+        log.info("Customer {}, {} successfully ordered {} item/s of {} size {} with an SKU of {}. Order number: {}, recorded!".format(
                 getData["lastname"], getData["firstname"], getProductInfo["quantity"], getProductInfo["size"],
-                getProductInfo["product_name"], product_page.getSKU()))
-        """
+                getProductInfo["product_name"], product_sku, success_page.getOrderNumber())
+        )
+
+        header_link.headerSwitch().click()
+        header_link.clickSignOut().click()
