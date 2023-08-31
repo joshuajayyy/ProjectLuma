@@ -1,0 +1,26 @@
+2023-09-01 05:04:43,877 : INFO : test_create_an_account : User with an email address Laurie@gmail.com, Successfully created an account.
+2023-09-01 05:25:39,399 : ERROR : test_create_an_account : Test failed with exception: assert 'Thank you for registering with Main Website Store.' == 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.'
+  - There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+  + Thank you for registering with Main Website Store.
+2023-09-01 05:26:02,738 : INFO : test_create_an_account : User with an email address Shirley@gmail.com, Successfully created an account.
+2023-09-01 05:26:48,764 : INFO : test_process_an_order : Pricing is correct
+2023-09-01 05:29:07,886 : INFO : test_create_an_account : User with an email address Virginia@gmail.com, Successfully created an account.
+2023-09-01 05:29:32,287 : INFO : test_process_an_order : Pricing is correct
+2023-09-01 05:29:36,816 : INFO : test_process_an_order : Customer Pal, Mala successfully ordered 3 item/s of S size Stellar Solar Jacket with an SKU of WJ01. Order number: 000020967, recorded!
+2023-09-01 05:52:05,078 : INFO : test_create_an_account : User with an email address Lauren@gmail.com, Successfully created an account.
+2023-09-01 05:52:34,559 : INFO : test_process_an_order : Pricing is correct
+2023-09-01 05:54:14,101 : ERROR : test_create_an_account : Test failed with exception: assert 'Thank you for registering with Main Website Store.' == 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.'
+  - There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+  + Thank you for registering with Main Website Store.
+2023-09-01 05:54:29,416 : ERROR : test_create_an_account : Test failed with exception: assert 'Thank you for registering with Main Website Store.' == 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.'
+  - There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.
+  + Thank you for registering with Main Website Store.
+2023-09-01 05:55:08,478 : INFO : test_create_an_account : User with an email address Lynda@gmail.com, Successfully created an account.
+2023-09-01 05:55:39,454 : INFO : test_process_an_order : Pricing is correct
+2023-09-01 05:55:44,388 : INFO : test_process_an_order : Customer Mahajan, Kalyana successfully ordered 3 item/s of S size Stellar Solar Jacket with an SKU of WJ01. Order number: 000020970, recorded!
+2023-09-01 06:14:09,493 : INFO : test_create_an_account : User with an email address Lyle@gmail.com, Successfully created an account.
+2023-09-01 06:15:08,635 : INFO : test_process_an_order : Pricing is correct
+2023-09-01 06:15:13,704 : INFO : test_process_an_order : Customer Matthai, Keshava successfully ordered 3 item/s of S size Stellar Solar Jacket with an SKU of WJ01. Order number: 000020971, recorded!
+2023-09-01 06:46:34,192 : INFO : test_create_an_account : User with an email address Stacey@gmail.com, Successfully created an account.
+2023-09-01 06:47:01,528 : INFO : test_process_an_order : Pricing is correct
+2023-09-01 06:47:06,276 : INFO : test_process_an_order : Customer Mutti, Harishankar successfully ordered 3 item/s of S size Stellar Solar Jacket with an SKU of WJ01. Order number: 000020972, recorded!

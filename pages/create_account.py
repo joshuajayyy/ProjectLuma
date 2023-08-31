@@ -11,7 +11,7 @@ class CreateAccountPage(BaseClass):
     password = (By.ID, "password")
     confirm_password = (By.ID, "password-confirmation")
     click_submit = (By.CSS_SELECTOR, "button[title='Create an Account']")
-    grab_success_message = (By.CSS_SELECTOR, ".message-success")
+    grab_message = (By.CSS_SELECTOR, "div[role='alert']")
 
     def __init__(self, driver):
         self.driver = driver
@@ -35,4 +35,4 @@ class CreateAccountPage(BaseClass):
         return self.driver.find_element(*CreateAccountPage.click_submit)
 
     def grabSuccessMessage(self):
-        return self.driver.find_element(*CreateAccountPage.grab_success_message).text
+        return self.driver.find_element(*CreateAccountPage.grab_message).text

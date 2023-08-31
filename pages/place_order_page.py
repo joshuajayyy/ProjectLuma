@@ -10,7 +10,7 @@ class PlaceOrderPage(BaseClass):
     ship_price = (By.CSS_SELECTOR, ".shipping .amount .price")
     t_order = (By.CSS_SELECTOR, ".grand .amount .price")
     place_order_button = (By.CSS_SELECTOR, ".primary .checkout")
-    wait = (By.CSS_SELECTOR, "#block-discount-heading")
+    wait = (By.CSS_SELECTOR, "body[data-container='body'] .loading-mask .loader")
 
     def __init__(self, driver):
         self.driver = driver

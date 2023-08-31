@@ -16,7 +16,7 @@ from utilities.base_class import BaseClass
 class TestProcessAnOrder(BaseClass):
 
     @pytest.mark.usefixtures("getData", "getProductInfo", "getAddress", "getStates")
-    def test_processAnOrder(self, getData, getProductInfo, getAddress, getStates):
+    def test_process_an_order(self, getData, getProductInfo, getAddress, getStates):
         log = self.getlogger()
         header_link = HeaderLinks(self.driver)
         sign_in = LoginPage(self.driver)
@@ -38,7 +38,7 @@ class TestProcessAnOrder(BaseClass):
         header_link.clickWhatsNew().click()
 
         # Navigate to whats new page and add product
-        self.explicitWait(WhatsNewPage.target_element)
+        self.explicit_wait_visibility(WhatsNewPage.target_element)
         whats_new.productSearch(getProductInfo["product_name"])
 
         # Set all necessary information from product page
@@ -50,11 +50,11 @@ class TestProcessAnOrder(BaseClass):
         product_page.clickAddToCart().click()
 
         # Click on header cart icon
-        self.explicitWait(header_link.wait)
+        self.explicit_wait_visibility(header_link.wait)
         header_link.cartIcon().click()
 
         # Click on header checkout button
-        self.explicitWait(header_link.wait2)
+        self.explicit_wait_visibility(header_link.wait2)
         header_link.proceedToCheckOut().click()
 
         # Setting up fields on checkout page
@@ -75,19 +75,18 @@ class TestProcessAnOrder(BaseClass):
             assert place_order_page.getTotalOrderPrice() == place_order_page.computation()
             log.info("Pricing is correct")
 
-        except:
-            log.error("Pricing assertion error")
+        except Exception as e:
+            log.error(f"Test failed with exception: {e}")
 
         finally:
-            #self.explicitWait(place_order_page.wait)
-            time.sleep(2)
+            self.explicit_wait_invisibility(place_order_page.wait)
             place_order_page.clickPlaceOrder().click()
 
-        time.sleep(5)
+        self.explicit_wait_visibility(success_page.wait)
         assert "Thank you for your purchase!" == success_page.getMessage()
 
         log.info("Customer {}, {} successfully ordered {} item/s of {} size {} with an SKU of {}. Order number: {}, recorded!".format(
-                getData["lastname"], getData["firstname"], getProductInfo["quantity"], getProductInfo["size"],
+                InputData().getUserLastName(), InputData().getUserFirstName(), getProductInfo["quantity"], getProductInfo["size"],
                 getProductInfo["product_name"], product_sku, success_page.getOrderNumber())
         )
 

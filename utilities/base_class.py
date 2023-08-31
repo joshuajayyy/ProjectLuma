@@ -9,9 +9,13 @@ from selenium.webdriver.support.wait import WebDriverWait
 @pytest.mark.usefixtures("invokeBrowser")
 class BaseClass:
 
-    def explicitWait(self, eWait):
+    def explicit_wait_visibility(self, e_wait):
         wait = WebDriverWait(self.driver, 10)
-        wait.until(expected_conditions.presence_of_element_located(eWait))
+        wait.until(expected_conditions.visibility_of_element_located(e_wait))
+
+    def explicit_wait_invisibility(self, e_wait):
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(expected_conditions.invisibility_of_element_located(e_wait))
 
     def getlogger(self):
         loggerName = inspect.stack()[1][3]

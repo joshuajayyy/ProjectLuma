@@ -32,7 +32,7 @@ def invokeBrowser(request):
         driver = webdriver.Firefox(options=firefox_options)
 
     driver.get("https://magento.softwaretestingboard.com/")
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
     request.cls.driver = driver
 
     yield

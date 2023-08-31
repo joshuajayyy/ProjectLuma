@@ -1,3 +1,5 @@
+import time
+
 import pytest
 
 from pages.create_account import CreateAccountPage
@@ -9,7 +11,7 @@ from utilities.base_class import BaseClass
 class TestAccountPage(BaseClass):
 
     @pytest.mark.usefixtures("getData")
-    def test_createAnAccount(self, getData):
+    def test_create_an_account(self, getData):
         log = self.getlogger()
         create_account = CreateAccountPage(self.driver)
         header_link = HeaderLinks(self.driver)
@@ -21,8 +23,9 @@ class TestAccountPage(BaseClass):
         create_account.setPassword().send_keys(getData["password"])
         create_account.setPasswordConfirmation().send_keys(getData["password"])
         create_account.clickSubmitButton().click()
-        self.explicitWait(create_account.grab_success_message)
-        InputData().logData()
-        assert "Thank you for registering with Main Website Store." == create_account.grabSuccessMessage()
+        self.explicit_wait_visibility(create_account.grab_message)
 
+        assert "Thank you for registering with Main Website Store." == create_account.grabSuccessMessage()
         log.info("User with an email address " + getData["email"] + ", " + "Successfully created an account.")
+        InputData().logData()
+
