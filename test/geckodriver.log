@@ -141,3 +141,96 @@ Dynamically enable window occlusion 1
 [GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
 [Parent 23796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
 [GPU 15564, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693527385238	geckodriver	INFO	Listening on 127.0.0.1:60148
+1693527388285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--remote-debugging-por ... mote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SLMP - Joshua\\AppData\\Local\\Temp\\rust_mozprofilegMlku2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693527389123	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1693527389255	Marionette	INFO	Listening on port 60160
+WebDriver BiDi listening on ws://127.0.0.1:60149
+Read port: 60160
+1693527389716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60149/devtools/browser/b097b71f-95be-46e4-a6fd-13b8a77ede68
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: MSP_ReCaptcha/js/ui-messages-mixin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: jquery-ui-modules/effect-blind
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js, line 16: Error: Script error for: Magento_Ui/js/lib/core/element/links
+http://requirejs.org/docs/errors.html#scripterror
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://magento.softwaretestingboard.com."
+JavaScript error: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/Magento_Theme/js/view/messages.js, line 2: TypeError: $.mage.cookies is undefined
+1693527401003	Marionette	INFO	Stopped listening on port 60160
+JavaScript warning: https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/apply/scripts.js, line 5: Script terminated by timeout at:
+getNodeData@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/apply/scripts.js:5:112
+@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/apply/scripts.js:6:88
+apply@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/apply/main.js:5:59
+fire@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/jquery.js:221:223
+add@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/jquery.js:224:235
+jQuery.fn.ready@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/jquery.js:232:97
+jQuery.fn.init@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/jquery.js:209:352
+jQuery.fn.init@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/jquery/jquery-migrate.js:27:13
+jQuery@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/jquery.js:15:59
+@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/bootstrap.js:1:134
+execCb@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:114:132
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:56:457
+newContext/enable/</<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:73:103
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+newContext/emit/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:78
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:77
+emit@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:44
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:61:88
+newContext/enable/</<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:73:103
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+newContext/emit/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:78
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:77
+emit@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:44
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:61:88
+enable@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:74:285
+init@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:54:144
+newContext/callPlugin/</load<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:66:37
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+load/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/requirejs/mixins.js:8:161
+execCb@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:114:132
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:56:457
+newContext/enable/</<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:73:103
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+newContext/emit/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:78
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:77
+emit@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:44
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:61:88
+newContext/enable/</<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:73:103
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+newContext/emit/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:78
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:77
+emit@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:44
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:61:88
+enable@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:74:285
+init@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:54:144
+newContext/callPlugin/</load<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:66:37
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+load/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/requirejs/mixins.js:8:161
+execCb@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:114:132
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:56:457
+newContext/enable/</<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:73:103
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+newContext/emit/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:78
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:77
+emit@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:44
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:61:88
+newContext/enable/</<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:73:103
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+newContext/emit/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:78
+each@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:3:77
+emit@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:75:44
+check@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:61:88
+enable@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:74:285
+init@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:54:144
+newContext/callPlugin/</load<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:66:37
+bind/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/requirejs/require.js:11:51
+loadContent/<@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/requirejs/text.js:10:227
+getContent/xhr.onreadystatechange@https://magento.softwaretestingboard.com/pub/static/version1678540400/frontend/Magento/luma/en_US/mage/requirejs/text.js:8:210
+
+Dynamically enable window occlusion 1

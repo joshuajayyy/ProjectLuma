@@ -2,6 +2,7 @@ import inspect
 import logging
 
 import pytest
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -17,6 +18,13 @@ class BaseClass:
         wait = WebDriverWait(self.driver, 10)
         wait.until(expected_conditions.invisibility_of_element_located(e_wait))
 
+    def convertPrice(self, convert):
+        return float(convert.replace('$', '').replace(',', '').replace('-', ''))
+
+    def execute_scroll_view(self, holder):
+        element = self.driver.find_element(*holder)
+        self.driver.execute_script("arguments[0].scrollIntoView({ behavior: 'smooth' });", element)
+
     def getlogger(self):
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
@@ -28,14 +36,3 @@ class BaseClass:
 
         logger.setLevel(logging.DEBUG)
         return logger
-
-    def convertPrice(self, convert):
-        return float(convert.replace('$', '').replace(',', '').replace('-', ''))
-
-    """
-    @pytest.mark.usefixtures("getProductInfo")
-    def totalAmount(self, getProductInfo):
-        p_page = ProductPage(self.driver)
-        total_amount = p_page.getPrice() * getProductInfo["quantity"]
-        return total_amount
-    """

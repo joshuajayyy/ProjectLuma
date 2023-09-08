@@ -38,7 +38,9 @@ class TestProcessAnOrder(BaseClass):
         header_link.clickWhatsNew().click()
 
         # Navigate to whats new page and add product
-        self.explicit_wait_visibility(WhatsNewPage.target_element)
+        self.explicit_wait_visibility(whats_new.target_element)
+        self.execute_scroll_view(whats_new.target_element)
+        time.sleep(3)
         whats_new.productSearch(getProductInfo["product_name"])
 
         # Set all necessary information from product page
@@ -78,9 +80,8 @@ class TestProcessAnOrder(BaseClass):
         except Exception as e:
             log.error(f"Test failed with exception: {e}")
 
-        finally:
-            self.explicit_wait_invisibility(place_order_page.wait)
-            place_order_page.clickPlaceOrder().click()
+        self.explicit_wait_invisibility(place_order_page.wait)
+        place_order_page.clickPlaceOrder().click()
 
         self.explicit_wait_visibility(success_page.wait)
         assert "Thank you for your purchase!" == success_page.getMessage()
