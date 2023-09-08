@@ -1,6 +1,8 @@
 # ProjectLuma
 Automating Ecommerce Website using Selenium and Python with Pytest integration. 🛒🤖
 
+Ecommerce Website: https://magento.softwaretestingboard.com/
+
 NOTE: This project is still in progress. 🐥
 
 Key Features:
