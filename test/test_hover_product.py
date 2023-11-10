@@ -27,3 +27,7 @@ class TestHoverProduct(BaseClass):
         hover.set_color_on_hover()
         hover.hover_element()
         hover.add_to_cart_on_hover().click()
+
+        header_link.cartIcon().click()
+        product_name = hover.get_product_hover_name()
+        print(product_name)

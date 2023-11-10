@@ -8,6 +8,7 @@ class ProductHover:
     size = (By.CSS_SELECTOR, ".size .clearfix .text")
     color = (By.CSS_SELECTOR, ".color .color:nth-child(2)")
     cart = (By.CSS_SELECTOR, ".tocart")
+    product_name = (By.CSS_SELECTOR, ".product-item-name")
 
     def __init__(self, driver):
         self.driver = driver
@@ -32,3 +33,9 @@ class ProductHover:
     def add_to_cart_on_hover(self):
         item = self.driver.find_element(*ProductHover.element_to_hover)
         return item.find_element(*ProductHover.cart)
+
+    def get_product_hover_name(self):
+        item = self.driver.find_element(*ProductHover.element_to_hover)
+        product_name = item.find_element(*ProductHover.product_name).text
+        return product_name
+

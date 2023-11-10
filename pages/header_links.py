@@ -14,6 +14,8 @@ class HeaderLinks(BaseClass):
     wait2 = (By.CSS_SELECTOR, ".subtotal")
     switch = (By.CSS_SELECTOR, ".header .switch")
     sign_out = (By.LINK_TEXT, "Sign Out")
+    mini_cart = (By.CSS_SELECTOR, ".minicart-items-wrapper")
+    mini_cart_item_name = (By.CSS_SELECTOR, ".product-item-name")
 
     def __init__(self, driver):
         self.driver = driver
@@ -38,3 +40,9 @@ class HeaderLinks(BaseClass):
 
     def clickSignOut(self):
         return self.driver.find_element(*HeaderLinks.sign_out)
+
+    def product_names_on_minicart(self):
+        item = self.driver.find_element(*HeaderLinks.mini_cart)
+        product_names = item.find_elements(*HeaderLinks.mini_cart_item_name)
+        return product_names
+
