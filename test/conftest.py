@@ -83,6 +83,7 @@ def pytest_runtest_makereport(item):
 
 
 def _capture_screenshot(name):
-    screenshot_directory = "C:/Users/SLMP - Joshua/PycharmProjects/ProjectLuma/reports"
+    screenshot_directory = "C:/Users/j.guadalupe/PycharmProjects/PythonTesting/ProjectLuma/reports"
     file_path = os.path.join(screenshot_directory, name)
     driver.get_screenshot_as_file(file_path)
+

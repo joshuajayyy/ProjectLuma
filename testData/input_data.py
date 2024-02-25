@@ -2,7 +2,7 @@ import names
 import random_address
 import randominfo as ri
 
-userLogFilePath = "C:/Users/SLMP - Joshua/PycharmProjects/ProjectLuma/testData/user_log.text"
+userLogFilePath = "C:/Users/j.guadalupe/PycharmProjects/PythonTesting/ProjectLuma/testData/user_log.txt"
 random_name = names.get_first_name()
 f_name = ri.get_first_name()
 l_name = ri.get_last_name()

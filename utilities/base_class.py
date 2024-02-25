@@ -27,7 +27,7 @@ class BaseClass:
     def getlogger(self):
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
-        fileHandler = logging.FileHandler("C:/Users/SLMP - Joshua/PycharmProjects/ProjectLuma/testData/log_file.log")
+        fileHandler = logging.FileHandler("C:/Users/j.guadalupe/PycharmProjects/PythonTesting/ProjectLuma/testData/log_file.log")
         formatter = logging.Formatter("%(asctime)s : %(levelname)s : %(name)s : %(message)s")
         fileHandler.setFormatter(formatter)
 

@@ -1,3 +1,9 @@
 2023-09-05 01:52:59,921 : INFO : test_create_an_account : User with an email address Scott@gmail.com, Successfully created an account.
 2023-09-05 01:53:25,051 : INFO : test_process_an_order : Pricing is correct
 2023-09-05 01:53:29,780 : INFO : test_process_an_order : Customer Vora, Kalika successfully ordered 3 item/s of S size Stellar Solar Jacket with an SKU of WJ01. Order number: 000021173, recorded!
+2024-02-25 16:35:23,982 : INFO : test_successful_login : User Drupada Nadig entered an email: Scott@gmail.com
+2024-02-25 16:42:14,163 : INFO : test_create_an_account : User with an email address Josephine@gmail.com, Successfully created an account.
+2024-02-25 16:45:12,920 : INFO : test_create_an_account : User with an email address Walter@gmail.com, Successfully created an account.
+2024-02-25 16:46:36,141 : INFO : test_successful_login : User Adita Setty entered an email: Walter@gmail.com
+2024-02-25 16:47:25,139 : INFO : test_process_an_order : Pricing is correct
+2024-02-25 16:47:33,729 : INFO : test_process_an_order : Customer Ranganathan, Gautam successfully ordered 3 item/s of S size Stellar Solar Jacket with an SKU of WJ01. Order number: 000046278, recorded!
