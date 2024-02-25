@@ -12,3 +12,4 @@ Key Features:
 - Seamlessly integrate Pytest for robust and structured testing.
 - Replicate real-world scenarios, from product searches to checkout processes.
 - Establish a foundation for scalable, maintainable, and efficient Ecommerce automation projects.
+- Test :D
